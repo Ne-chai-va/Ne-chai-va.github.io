@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Планета Елизавета</title>
+
+  <link rel="stylesheet" href="./css/style2.css">
+  <link rel="stylesheet" href="./css/flickity.css" media="screen">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <ul class="nav-btns">
+        <li><a href="#skills" aria-label="Навыки">навыки</a></li>
+        <li><a href="#projects" aria-label="Проекты">проекты</a></li>
+        <li><a href="#reviews" aria-label="Отзывы">отзывы</a></li>
+        <li><a href="#contacts" aria-label="Контакты">контакты</a></li>
+      </ul>
+      <hr>
+    </nav>
+  </div>
+
+  <main>
+    <div class="wrapper">
+      <section class="gallery">
+        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+          <div class="gallery-cell">
+            <img src="./img/3d-modeling/1.jpg" alt="работа в портфолио">
+          </div>
+          <div class="gallery-cell">
+            <img src="./img/3d-modeling/2.jpg" alt="работа в портфолио">
+          </div>
+          <div class="gallery-cell">
+            <img src="./img/3d-modeling/3.jpg" alt="работа в портфолио">
+          </div>
+          <div class="gallery-cell">
+            <img src="./img/3d-modeling/4.jpg" alt="работа в портфолио">
+          </div>
+          <div class="gallery-cell">
+            <img src="./img/3d-modeling/5.jpg" alt="работа в портфолио">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <section class="text">
+        <div class="text-p">
+          <p>
+            Я моделирую 3D объекты в Blender
+          </p>
+        </div>
+        <div class="text-links">
+          <a href="fonts.html">← Предыдущий кейс</a>
+          <a href="index.html">На главную</a>
+          <a href="ai.html">Следующий кейс →</a>
+        </div>
+      </section>
+
+      <section class="btn-big">
+        <button>
+          Хочу так же
+        </button>
+        <form>
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name">
+          <label for="tel">Телефон</label>
+          <input type="tel" id="tel" name="tel">
+          <input type="submit" value="отправить">
+        </form>
+      </section>
+
+      <footer>
+        <h2>Мои контакты</h2>
+        <div class="socials-row">
+          <div class="socials-element">
+            <img class="socials-phone" src="./img/socials-phone.png" alt="схематическая иконка телефона">
+            <a href="tel:+79131639541">+7&nbsp;913&nbsp;163&nbsp;95&nbsp;41</a>
+          </div>
+          <div class="socials-element">
+            <img class="socials-phone" src="./img/socials-whatsapp.png" alt="схематическая иконка приложения WhatsApp">
+            <p>Написать&nbsp;в&nbsp;WhatsApp</p>
+          </div>
+          <div class="socials-element">
+            <img class="socials-phone" src="./img/socials-telegram.png" alt="схематическая иконка приложения WhatsApp">
+            <p>Написать&nbsp;в&nbsp;Telegram</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <script src="./js/flickity.pkgd.js"></script>
+</body>
