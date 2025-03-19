@@ -265,6 +265,10 @@ nav hr {
   .hero-section .overlay-img {
     width: 50vh;
   }
+
+  .hero-section .hero-heading {
+  left: 60%;
+  }
 }
 
 @media (max-width: 1300px) {
