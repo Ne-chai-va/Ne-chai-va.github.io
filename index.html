@@ -11,7 +11,6 @@
 </head>
 
 <body>
-  <div class="wrapper">
     <nav>
         <div class="mobile-div">
           <div class="nav-heading">
@@ -21,16 +20,18 @@
           <div class="mobile-menu">
             <i class='bx bx-menu'></i>
           </div>
-          <ul class="nav-btns">
-            <li><a href="#skills" aria-label="Навыки">навыки</a></li>
-            <li><a href="#projects" aria-label="Проекты">проекты</a></li>
-            <li><a href="#reviews" aria-label="Отзывы">отзывы</a></li>
-            <li><a href="#contacts" aria-label="Контакты">контакты</a></li>
-          </ul>
+          <div class="navbar">
+            <ul class="nav-btns">
+              <li><a href="#skills" aria-label="Навыки">навыки</a></li>
+              <li><a href="#projects" aria-label="Проекты">проекты</a></li>
+              <li><a href="#reviews" aria-label="Отзывы">отзывы</a></li>
+              <li><a href="#contacts" aria-label="Контакты">контакты</a></li>
+            </ul>
+            <hr>
+          </div>
         </div>
-      <hr>
+        <hr class="mobile-hr">
     </nav>
-  </div>
 
   <section class="hero-section">
     <div class="hero-img">
@@ -49,8 +50,8 @@
     </div>
   </section>
 
-  <div class="wrapper">
-    <section class="features-section">
+  <div class="wrapper-features" id="skills">
+    <section class="features-section" id="skills">
       <div class="features-grid">
         <div class="feature">
           <img class="feature-img" src="./img/feature-ai-img.svg" alt="adobe illustrator">
@@ -204,12 +205,12 @@
     </div>
 
     <div class="wrapper">
-      <section class="logo-cases">
+      <section class="logo-cases" id="projects">
         <h2>Логотип и фирменный стиль</h2>
         <div class="cases-grid">
           <div class="cases-card">
             <img class="case-img" src="./img/cases-pole-dance.png" alt="логотип студии танцев пол дэнс">
-            <h3>Студия танцев пол дэнс</h3>
+            <h3>Студия танцев<br>пол дэнс</h3>
             <a href="poledance.html">подробнее</a>
           </div>
           <div class="cases-card">
@@ -337,7 +338,7 @@
     </div>
 
     <div class="wrapper">
-      <section class="reviews">
+      <section class="reviews" id="reviews">
 
         <h2>Отзывы о сотрудничестве</h2>
 
@@ -504,23 +505,25 @@
       </div>
     </section>
 
-    <section class="socials">
-      <h2>Мои контакты</h2>
-      <div class="socials-row">
-        <div class="socials-element">
-          <img class="socials-phone" src="./img/socials-phone.png" alt="схематическая иконка телефона">
-          <a href="tel:+79131639541">+7&nbsp;913&nbsp;163&nbsp;95&nbsp;41</a>
+    <div class="wrapper">
+      <section class="socials" id="contacts">
+        <h2>Мои контакты</h2>
+        <div class="socials-row">
+          <div class="socials-element">
+            <img class="socials-phone" src="./img/socials-phone.png" alt="схематическая иконка телефона">
+            <a href="tel:+79131639541">+7&nbsp;913&nbsp;163&nbsp;95&nbsp;41</a>
+          </div>
+          <div class="socials-element">
+            <img class="socials-phone" src="./img/socials-whatsapp.png" alt="схематическая иконка приложения WhatsApp">
+            <p>Написать&nbsp;в&nbsp;WhatsApp</p>
+          </div>
+          <div class="socials-element">
+            <img class="socials-phone" src="./img/socials-telegram.png" alt="схематическая иконка приложения WhatsApp">
+            <p>Написать&nbsp;в&nbsp;Telegram</p>
+          </div>
         </div>
-        <div class="socials-element">
-          <img class="socials-phone" src="./img/socials-whatsapp.png" alt="схематическая иконка приложения WhatsApp">
-          <p>Написать&nbsp;в&nbsp;WhatsApp</p>
-        </div>
-        <div class="socials-element">
-          <img class="socials-phone" src="./img/socials-telegram.png" alt="схематическая иконка приложения WhatsApp">
-          <p>Написать&nbsp;в&nbsp;Telegram</p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <footer>
       <div class="footer-row">
