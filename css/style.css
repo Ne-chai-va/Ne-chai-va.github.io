@@ -64,6 +64,12 @@ body {
   width: 60%;
 }
 
+@media (max-width: 768px) {
+  .wrapper {
+    width: 85%;
+  }
+}
+
 p,
 a,
 li {
@@ -444,6 +450,10 @@ nav hr {
 }
 
 @media (max-width: 786px) {
+  .features-section h2 {
+    font-size: 3vw;
+  }
+
   .features-grid {
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
@@ -1188,7 +1198,7 @@ nav hr {
 
 @media (max-width: 768px) {
   .price {
-    width: 60%;
+    width: 85%;
   }
 
   .price-table table td {
